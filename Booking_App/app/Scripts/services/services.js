@@ -8,29 +8,11 @@ HServices.factory('Hotels', ['$resource',
 			      query: {method:'GET'},
 			      queryAll: {method:'GET', isArray: true},
 			      create: {method:'POST'},
-			      update: {method: 'PUT'},
-				      function(successResult){
-				      	console.log ('Success');
-				      }, function(errorResult){
-				      		console.log ('error');
-				      }
+			      update: {method: 'PUT'}
 			  });
-
-
-
-
-		
 		return Hotels;
 }]);
 
-
-
-Hotels.queryAll(function (result) {
-   angular.isArray(result); // should be true
-}, function (error) 
-{
-    alert()
-});
 
 
 
