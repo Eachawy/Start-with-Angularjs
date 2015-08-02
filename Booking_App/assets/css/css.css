@@ -36,3 +36,4 @@ h2 {
 .thumbnail{min-height: 370px;}
 .thumbnail img{opacity: 0.8;}
 .thumbnail img:hover{opacity: 1}
+.pagination {text-align:center;}
