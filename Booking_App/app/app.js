@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('BookingApp', ['ngRoute','BookingApp.Services','BookingApp.Ctrl'])
+angular.module('BookingApp', ['ngRoute','BookingApp.Services','BookingApp.Ctrl', 'Hotels.dir'])
 	.config(function ($routeProvider) {
 		$routeProvider.
 			when('/', {
