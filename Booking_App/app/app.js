@@ -13,7 +13,7 @@ angular.module('BookingApp', ['ngRoute', 'BookingApp.Services', 'BookingApp.Ctrl
 			}).
 			when('/Add', {
 			    templateUrl: 'app/views/AddEdit.html',
-			    controller: ''
+			    controller: 'BookingCreateController'
 			}).
 			when('/Edit', {
 			    templateUrl: 'app/views/AddEdit.html',
