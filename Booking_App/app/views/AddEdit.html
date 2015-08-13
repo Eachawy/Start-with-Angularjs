@@ -1,15 +1,15 @@
 
     <div class="form-group">
         <label for="exampleInputEmail1">Hotel Name</label>
-        <input type="text" class="form-control" placeholder="Hotel Name">
+        <input type="text" class="form-control" ng-model="Hotel.Cont1" placeholder="Hotel Name">
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1">Description</label>
-        <textarea  class="form-control" placeholder="Description"></textarea>
+        <textarea class="form-control" ng-model="Hotel.Cont2" placeholder="Description"></textarea>
     </div>
     <div class="form-group">
         <label for="exampleInputFile">Hotel Image</label>
         <input type="file" id="exampleInputFile">
         <p class="help-block">.jpg</p>
     </div>
-    <button type="button" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-primary" ng-click="addBooking()">Save</button>
